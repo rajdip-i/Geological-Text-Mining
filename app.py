@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 
+
 # Load environment variables
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -83,7 +84,7 @@ def main():
     user_question = st.text_input("Ask a Question")
 
     # Load PDFs from local folder
-    local_pdfs = load_pdfs_from_folder("/Users/rajdipingale/Geological Text Mining/PDFs")
+    local_pdfs = load_pdfs_from_folder("PDFs")
 
     
 
