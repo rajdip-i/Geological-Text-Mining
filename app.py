@@ -11,7 +11,6 @@ import google.generativeai as genai
 
 
 
-# Load environment variables
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
@@ -20,7 +19,6 @@ if api_key is not None:
 else:
     raise ValueError("GOOGLE_API_KEY environment variable is not set.")
 
-# Specify the local path for PDF folder
 LOCAL_PDF_FOLDER_PATH = "/path/to/your/pdf/folder"
 
 def get_pdf_text(pdf_docs):
@@ -57,7 +55,6 @@ def get_conversational_chain():
 
 def user_input(user_question):
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-    # Safely handle FAISS loading
     try:
         new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
         docs = new_db.similarity_search(user_question)
@@ -83,7 +80,6 @@ def main():
 
     user_question = st.text_input("Ask a Question")
 
-    # Load PDFs from local folder
     local_pdfs = load_pdfs_from_folder("PDFs")
 
     
@@ -93,7 +89,6 @@ def main():
 
     with st.sidebar:
         st.title("Menu:")
-        # File uploader for additional PDFs
         uploaded_pdfs = st.file_uploader("Upload additional PDF Files", type="pdf", accept_multiple_files=True)
 
         if uploaded_pdfs:
