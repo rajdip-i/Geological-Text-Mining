@@ -1,6 +1,6 @@
 # Geological Text Mining
 
-This project is designed to analyze geological texts by leveraging advanced NLP techniques. Users can upload geological PDFs and interactively query the content using a Streamlit-powered web application.
+This project is designed to analyze geological texts by leveraging advanced NLP(RAG) techniques. Users can upload geological PDFs and interactively query the content using a Streamlit-powered web application.
 
 ---
 
