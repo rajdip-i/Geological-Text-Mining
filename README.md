@@ -56,7 +56,7 @@ This project is designed to analyze geological texts by leveraging advanced NLP(
 ---
 ## Demo Screenshots
 
-![Demo Screenshot](Images/1.png "Demo of the FAQ Bot")
-![Demo Screenshot](Images/2.png "Demo of the FAQ Bot")
-![Demo Screenshot](Images/3.png "Demo of the FAQ Bot")
+![Demo Screenshot](Images/1.png "Demo of the  Bot")
+![Demo Screenshot](Images/2.png "Demo of the  Bot")
+![Demo Screenshot](Images/3.png "Demo of the  Bot")
 
