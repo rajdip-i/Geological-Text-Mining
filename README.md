@@ -3,7 +3,12 @@
 This project is designed to analyze geological texts by leveraging advanced NLP(RAG) techniques. Users can upload geological PDFs and interactively query the content using a Streamlit-powered web application.
 
 ---
+## Demo Screenshots
 
+![Demo Screenshot](Images/1.png "Demo of the  Bot")
+![Demo Screenshot](Images/2.png "Demo of the  Bot")
+![Demo Screenshot](Images/3.png "Demo of the  Bot")
+---
 ## Features
 - **PDF Upload and Processing**: Supports uploading multiple PDF files for analysis.
 - **Text Chunking and Indexing**: Splits text into manageable chunks and builds a vectorized index using FAISS.
@@ -54,9 +59,4 @@ This project is designed to analyze geological texts by leveraging advanced NLP(
    - python app.py
 
 ---
-## Demo Screenshots
-
-![Demo Screenshot](Images/1.png "Demo of the  Bot")
-![Demo Screenshot](Images/2.png "Demo of the  Bot")
-![Demo Screenshot](Images/3.png "Demo of the  Bot")
 
