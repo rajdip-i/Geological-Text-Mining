@@ -48,7 +48,7 @@ This project is designed to analyze geological texts by leveraging advanced NLP(
    - pip install -r requirements.txt
 
 3. Add your HuggingFace API key in the .env file:
-   - HUGGINGFACEHUB_API_TOKEN=YOUR_API_KEY
+   - GOOGLE_API_KEY=YOUR_API_KEY
 
 4. Run the Flask app:
    - python app.py
